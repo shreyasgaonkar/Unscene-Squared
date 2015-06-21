@@ -1,0 +1,308 @@
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#pizza, #pizzaFilter, #pizzaFilter1{
+    display:none;
+}
+#pasta, #pastaFilter, #pastaFilter1{
+    display:none;
+}
+#burger, #burgerFilter, #burgerFilter1{
+    display:none;
+}
+#sodaFilter, #sodaFilter1{
+    display:none;
+}
+#cokeFilter, #cokeFilter1{
+    display:none;
+}
+#pepsiFilter, #pepsiFilter1{
+    display:none;
+}
+#foo{
+    display:none;
+}
+#food1{
+    display:none;
+}
+#drinks1{
+    display:none;
+}
+#sleep1{
+    display:none;
+}
+#hidden1{
+    display:none;
+}
+#customFilter{
+    display:none;
+}
+#threeStarFilter, #threeStarFilter1{
+    display:none;
+}
+#fourStarFilter, #fourStarFilter1{
+    display:none;
+}
+#fiveStarFilter, #fiveStarFilter1{
+    display:none;
+}
+#photothumnail{
+    margin-top:10px;
+    padding:10px;
+}
+#features {
+    text-align: center;
+}
+
+    #features img {
+        margin: 0 0 20px 0;
+    }
+
+#inputMessage {
+    margin-bottom: 15px;
+}
+
+footer {
+    width: 100%;
+    background: #333;
+    color: #EEE;
+    font-size: 11px;
+    padding: 20px;
+}
+
+    footer a:hover {
+        text-decoration: none;
+        color: #FFF;
+    }
+
+#featuresHeading {
+    padding: 0 1%;
+}
+
+#aboutSrg {
+    padding-top: 60px;
+}
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    text-align: justify;
+}
+
+.well .page-header {
+    margin-top: 0;
+}
+
+    .well .page-header h1 {
+        margin-top: 0;
+    }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+#searchInput {
+    width: 200px;
+}
+
+.navbar-brand {
+    padding: 13px 15px;
+}
+
+#filter {
+    margin-top: 60px;
+}
+#foo{
+    padding:10px;
+    background:#EEE;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+    margin-top: 60px;
+}
+
+.carousel-caption {
+    font-size: 24px;
+}
+
+    .carousel-caption h4 {
+        font-size: 32px;
+    }
+
+#myCarousel .item {
+    height: 400px;
+}
+
+#slide1 {
+    background: url('../../images/carousel_medium_01.jpg') top center no-repeat;
+}
+
+#slide2 {
+    background: url('../../images/carousel_medium_04.jpg') top center no-repeat;
+}
+
+#slide3 {
+    background: url('../../images/carousel_medium_03.jpg') top center no-repeat;
+}
+
+#slid4 {
+    background: url('../../images/carousel_medium_02.jpg') top center no-repeat;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.alert {
+    margin-top: 20px;
+    display: none;
+}
+
+.well {
+    margin: 20px 0;
+}
+
+.tabbable img.thumbnail {
+    margin: 0 20px 10px 0;
+}
+
+.thumbnails {
+    margin: 20px 0;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+    .thumbnail h3 {
+        font-size: 16px;
+        margin: 0 0 10px;
+        line-height: 20px;
+    }
+
+    .thumbnail .price {
+        font-size: 22px;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        padding: 10px;
+    }
+
+        .thumbnail .price sup {
+            font-weight: normal;
+            font-size: 12px;
+        }
+
+    .thumbnail span.glyphicon {
+        margin-right: 5px;
+    }
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+    .thumbnail .price {
+        font-size: 14px;
+    }
+
+        .thumbnail .price sup {
+            font-size: 10px;
+        }
+
+    .thumbnail .price {
+        font-size: 14px;
+    }
+
+        .thumbnail .price sup {
+            font-size: 10px;
+        }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+    #myCarousel .item {
+        height: 310px;
+    }
+
+    #slide1 {
+        background: url('../../images/carousel_small_01.jpg') top center no-repeat;
+    }
+
+    #slide2 {
+        background: url('../../images/carousel_small_04.jpg') top center no-repeat;
+    }
+
+    #slide3 {
+        background: url('../../images/carousel_small_03.jpg') top center no-repeat;
+    }
+
+     #slide4 {
+        background: url('../../images/carousel_small_02.jpg') top center no-repeat;
+    }
+
+     
+
+
+    .carousel-caption {
+        font-size: 16px;
+    }
+
+        .carousel-caption h4 {
+            font-size: 22px;
+        }
+
+    #featuresHeading {
+        padding: 0 10px;
+    }
+
+    #aboutSrg {
+        padding-top: 0;
+    }
+
+    #learnMore {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+    #myCarousel .item {
+        height: 500px;
+    }
+
+    #slide1 {
+        background: url('../../images/carousel_large_01.jpg') top center no-repeat;
+    }
+
+    #slide2 {
+        background: url('../../images/carousel_large_04.jpg') top center no-repeat;
+    }
+
+    #slide3 {
+        background: url('../../images/carousel_large_03.jpg') top center no-repeat;
+    }
+
+    #slide4 {
+        background: url('../../images/carousel_large_02.jpg') top center no-repeat;
+    }
+}
